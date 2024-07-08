@@ -1,5 +1,4 @@
-use youtube_captions::scraper::{CaptionScraper, DigestScraper};
-use youtube_captions::language_tags::LanguageTag;
+use youtube_captions::{language_tags::LanguageTag, CaptionScraper, DigestScraper};
 
 pub type Any = Result<(), Box<dyn std::error::Error>>;
 
